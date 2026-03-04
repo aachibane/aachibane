@@ -1,0 +1,42 @@
+name: Restore Hidden HTML
+
+on:
+  workflow_dispatch:
+
+jobs:
+  restore-html:
+    runs-on: ubuntu-latest
+    env:
+      HIDDEN_HTML: ${{ secrets.HIDDEN_HTML }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show secret info
+        run: |
+          echo "Secret length: $(echo -n "$HIDDEN_HTML" | wc -c)"
+          echo "First 100 chars: ${HIDDEN_HTML:0:100}"
+
+      - name: Write Base64 to file
+        run: |
+          echo "$HIDDEN_HTML" > step1.b64
+          echo "Base64 file size: $(wc -c < step1.b64)"
+
+      - name: Decode Base64
+        run: |
+          base64 --decode step1.b64 > step2.gz
+          echo "Decoded file size: $(wc -c < step2.gz)"
+
+      - name: Decompress gzip
+        run: |
+          gunzip -c step2.gz > index.html
+          echo "Decompressed file size: $(wc -c < index.html)"
+
+      - name: Preview HTML
+        run: head -n 10 index.html
+
+      - name: Upload HTML as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hidden-html
+          path: index.html

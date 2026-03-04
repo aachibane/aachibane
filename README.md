@@ -1,12 +1,9 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=2000&color=58A6FF&center=true&vCenter=true&width=700&lines=Akram+ACHIBANE" alt="Name" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=16&pause=500&color=3FB950&center=true&vCenter=true&width=700&lines=▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" alt="divider" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=Software+Engineer+%7C+Ex-Oracle;Full-Stack+%7C+Java+%7C+React+%7C+Spring+Boot;1st+Place+Hackathon+Winner+%F0%9F%8F%86;Top+of+Class+Graduate+%F0%9F%8E%93;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="./animation_git.gif" width="100%" alt="Akram ACHIBANE" />
 
 
-<br/>
+&nbsp;
 
 [![LinkedIn](https://img.shields.io/badge/-%20akram--achibane-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/akram-achibane)
 [![Gmail](https://img.shields.io/badge/-achibaneakram@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:achibaneakram@gmail.com)
@@ -38,8 +35,7 @@ passion:    Clean code. Scalable systems.
 ### `> cat career.log`
 
 ```
-[02/2025–08/2025] ██████████ Oracle NetSuite        Frontend Developer Intern
-[02/2025–08/2025] ██████████ Oracle                 Research Assistant — Frontend & Testing
+[02/2025–08/2025] ██████████ Oracle                  Research Assistant — Frontend & Testing
 [03/2024–05/2024] ███████    Delta Act               React & Spring Boot Developer
 [08/2023–09/2023] ████       Weblinking Agency       Web Developer
 ```
