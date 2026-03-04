@@ -5,6 +5,7 @@ on:
   schedule:
     - cron: "0 12 * * *"
 
+
 jobs:
   update-quote:
     runs-on: ubuntu-latest
@@ -35,7 +36,7 @@ jobs:
         run: |
           sed -i "s|<!--QUOTE-->.*<!--QUOTE_END-->|<!--QUOTE-->$QUOTE<!--QUOTE_END-->|" README.md
 
-      # 4️⃣ Create Pull Request with daily quote
+# 4️⃣ Create Pull Request with daily quote
       - name: Create Pull Request
         id: create-pr
         uses: peter-evans/create-pull-request@v5
