@@ -154,6 +154,6 @@ Web & mobile multi-platform app. Auth, order processing & loyalty system. Contai
 
 ## 💡 Daily Quote
 
-<!--QUOTE-->Difficulties increase the nearer we get to the goal. — Johann Wolfgang von Goethe<!--QUOTE_END-->
+<!--QUOTE-->A house divided against itself cannot stand. — Abraham Lincoln<!--QUOTE_END-->
 
 </div>
