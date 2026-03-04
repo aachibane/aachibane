@@ -1,0 +1,56 @@
+name: Rotate Daily Quote
+
+on:
+  workflow_dispatch: # manual trigger
+  schedule:
+    - cron: "0 12 * * *" # daily at 12:00 UTC
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch random quote
+        id: quote
+        run: |
+          QUOTE=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author')
+          echo "QUOTE=$QUOTE" >> $GITHUB_ENV
+
+      - name: Replace quote in README
+        run: |
+          sed -i "s|<!--QUOTE-->.*<!--QUOTE_END-->|<!--QUOTE-->$QUOTE<!--QUOTE_END-->|" README.md
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+      - name: Create branch
+        run: |
+          BRANCH_NAME="daily-quote-$(date +%Y%m%d%H%M%S)"
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+          git checkout -b $BRANCH_NAME
+
+      - name: Commit changes
+        run: |
+          git add README.md
+          git commit -m "Update daily quote"
+
+      - name: Push branch
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ env.BRANCH_NAME }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update daily quote"
+          branch: ${{ env.BRANCH_NAME }}
+          base: main
+          title: "Daily Quote Update"
+          body: "Automated daily quote update via GitHub Actions"
