@@ -2,7 +2,6 @@
 
 <img src="./animation_git.gif" width="100%" alt="Akram ACHIBANE" />
 
-
 &nbsp;
 
 [![LinkedIn](https://img.shields.io/badge/-%20akram--achibane-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/akram-achibane)
@@ -17,30 +16,24 @@
 ### `> whoami`
 
 ```yaml
-name:       Akram ACHIBANE
 role:       Software Engineer
 status:     Open to opportunities 🟢
-education:  Engineering Degree — Top of Class
-            ENSA Agadir (2022–2025)
+education:  Engineering Degree — ENSA Agadir (2022–2025)
 experience: Ex-Oracle (NetSuite & Research)
-            3 internships | 2 hackathon wins
+            3 internships
 passion:    Clean code. Scalable systems.
             High-impact software.
 ```
-
-
 
 ---
 
 ### `> cat career.log`
 
 ```
-[02/2025–08/2025] ██████████ Oracle                  Research Assistant — Frontend & Testing
-[03/2024–05/2024] ███████    Delta Act               React & Spring Boot Developer
-[08/2023–09/2023] ████       Weblinking Agency       Web Developer
+[02/2025–08/2025] ██████████ Oracle            Research Assistant — Frontend & Testing
+[03/2024–05/2024] ███████    Delta Act          React & Spring Boot Developer
+[08/2023–09/2023] ████       Weblinking Agency  Web Developer
 ```
-
-> 💡 *At Oracle: delivered production UI used by thousands globally, won internal AI hackathon, earned Rising Stars award*
 
 ---
 
@@ -88,13 +81,31 @@ passion:    Clean code. Scalable systems.
 <tr>
 <td width="50%">
 
+**🧰 NetSuite UI Toolkit** *(@ Oracle)*
+```
+Stack: Oracle JET · Jest · Selenium E2E
+```
+Production-grade UI components used globally across NetSuite products. Full unit + E2E test coverage and interactive docs.
+
+</td>
+<td width="50%">
+
+**🤖 AI Navigation Bot** *(@ Oracle)*
+```
+Stack: Java · BFS · Penalty Algorithms
+```
+Real-time competitive bot built under hackathon pressure. BFS with penalty-weighted decisions to navigate and outperform opponents.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 **🏥 Medical Cabinet System**
 ```
 Stack: Spring Boot · React · MySQL · JWT
 ```
-Full-stack platform for patient records,
-bed occupancy & pharmacy inventory.
-Role-based access + secure REST APIs.
+Full-stack platform for patient records, bed occupancy & pharmacy inventory. Role-based access + secure REST APIs.
 
 </td>
 <td width="50%">
@@ -103,33 +114,7 @@ Role-based access + secure REST APIs.
 ```
 Stack: Spring Boot · React Native · Docker
 ```
-Web & mobile multi-platform app.
-Auth, order processing & loyalty system.
-Scalable architecture for future growth.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**🧰 NetSuite UI Toolkit** *(@ Oracle)*
-```
-Stack: Oracle JET · Jest · Selenium E2E
-```
-Production-grade UI components.
-Used globally across NetSuite products.
-Full test coverage + interactive docs.
-
-</td>
-<td width="50%">
-
-**🤖 AI Bot** *(Hackathon — 1st Place)*
-```
-Stack: Java · BFS · Penalty Algorithms
-```
-Real-time competitive navigation bot.
-Built under pressure. Won 1st place
-out of all Oracle NetSuite interns.
+Web & mobile multi-platform app. Auth, order processing & loyalty system. Containerized for scalability.
 
 </td>
 </tr>
@@ -143,35 +128,23 @@ out of all Oracle NetSuite interns.
 🥇  Oracle NetSuite Bot AI Hackathon .............. 1st Place
 🌟  Gen AI NCube8 Hackathon (160 teams) ........... Top 10 — Rising Stars Award
 🎓  ENSA Agadir Engineering Degree ................ Graduated Top of Class
-🏅  Oracle Java SE 17 Developer ................... Certified 2025
-🏅  OCI AI Foundations Associate .................. Certified 2025
-🏅  CS50x Harvard Certificate ..................... Certified 2021
 ```
 
 ---
 
-### `> ./connect.sh`
+### `> ls ./certifications/`
 
-```yaml
-📧  achibaneakram@gmail.com
-💼  linkedin.com/in/akram-achibane
-🐙  github.com/aachibane
-📍  Casablanca, Morocco
-```
+<div align="center">
 
-> 💬 *Always open to exciting opportunities, collaborations, or just a good tech conversation.*
+[![Java SE 17](https://img.shields.io/badge/Oracle_Java_SE_17_Developer-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://catalog-education.oracle.com)
+[![OCI AI](https://img.shields.io/badge/OCI_AI_Foundations_Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://catalog-education.oracle.com)
+[![CS50x](https://img.shields.io/badge/CS50x_Harvard-A51C30?style=for-the-badge&logo=harvard-university&logoColor=white)](https://cs50.harvard.edu)
+
+</div>
 
 ---
 
 <div align="center">
-
-```
-"First, solve the problem. Then, write the code."
-```
-
-![Profile Views](https://komarev.com/ghpvc/?username=aachibane&color=00D9FF&style=flat-square&label=profile+views)
-
-## 💡 Daily Quote
 
 <!--QUOTE-->Difficulties increase the nearer we get to the goal. — Johann Wolfgang von Goethe<!--QUOTE_END-->
 
