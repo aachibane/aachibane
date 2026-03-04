@@ -8,6 +8,7 @@
 [![Gmail](https://img.shields.io/badge/-achibaneakram@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:achibaneakram@gmail.com)
 [![GitHub](https://img.shields.io/badge/-aachibane-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aachibane)
 ![Location](https://img.shields.io/badge/-Casablanca%2C%20Morocco-00B388?style=flat-square&logo=googlemaps&logoColor=white)
+![Profile Views](https://komarev.com/ghpvc/?username=aachibane&color=00D9FF&style=flat-square&label=profile+views)
 
 </div>
 
@@ -18,7 +19,7 @@
 ```yaml
 role:       Software Engineer
 status:     Open to opportunities 🟢
-education:  Engineering Degree — ENSA Agadir (2022–2025)
+education:  Engineering Degree — ENSA Agadir (2020–2025)
 experience: Ex-Oracle (NetSuite & Research)
             3 internships
 passion:    Clean code. Scalable systems.
@@ -81,7 +82,7 @@ passion:    Clean code. Scalable systems.
 <tr>
 <td width="50%">
 
-**🧰 NetSuite UI Toolkit** *(@ Oracle)*
+**🧰 NetSuite UI Toolkit** *(@Oracle)*
 ```
 Stack: Oracle JET · Jest · Selenium E2E
 ```
@@ -90,7 +91,7 @@ Production-grade UI components used globally across NetSuite products. Full unit
 </td>
 <td width="50%">
 
-**🤖 AI Navigation Bot** *(@ Oracle)*
+**🤖 AI Navigation Bot** *(@Oracle)*
 ```
 Stack: Java · BFS · Penalty Algorithms
 ```
@@ -136,24 +137,18 @@ Web & mobile multi-platform app. Auth, order processing & loyalty system. Contai
 
 <div align="center">
 
-[![Java SE 17](https://img.shields.io/badge/Oracle_Java_SE_17_Developer-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://catalog-education.oracle.com)
-[![OCI AI](https://img.shields.io/badge/OCI_AI_Foundations_Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://catalog-education.oracle.com)
-[![CS50x](https://img.shields.io/badge/CS50x_Harvard-A51C30?style=for-the-badge&logo=harvard-university&logoColor=white)](https://cs50.harvard.edu)
+[![Java SE 17](https://img.shields.io/badge/Oracle_Java_SE_17_Developer-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://catalog-education.oracle.com/ords/certview/sharebadge?id=8B6994B9EA9937401B18AD41E2C10ADB54E3163543A0BA07C699A0EAC020A9C5)
+[![OCI AI](https://img.shields.io/badge/OCI_AI_Foundations_Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://catalog-education.oracle.com/ords/certview/sharebadge?id=F6B0144569F90A49A8B09BF427D7E8BCA7CBE63D36D6F848EF3BB4B1D3CF3136)
+[![CS50x](https://img.shields.io/badge/CS50x_Harvard-A51C30?style=for-the-badge&logo=harvard-university&logoColor=white)](https://certificates.cs50.io/6a922804-5e30-490d-847a-d6cbe58a4cfb.pdf?size=letter)
 
 </div>
 
 ---
 
+### `> cat ./daily_quote.txt`
+
 <div align="center">
 
-```
-"First, solve the problem. Then, write the code."
-```
-
-![Profile Views](https://komarev.com/ghpvc/?username=aachibane&color=00D9FF&style=flat-square&label=profile+views)
-
-## 💡 Daily Quote
-
-<!--QUOTE-->A house divided against itself cannot stand. — Abraham Lincoln<!--QUOTE_END-->
+*<!--QUOTE-->A house divided against itself cannot stand. — Abraham Lincoln<!--QUOTE_END-->*
 
 </div>
