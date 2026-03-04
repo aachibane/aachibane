@@ -154,6 +154,6 @@ Web & mobile multi-platform app. Auth, order processing & loyalty system. Contai
 
 ## 💡 Daily Quote
 
-<!--QUOTE-->You can observe a lot just by watching. — Yogi Berra<!--QUOTE_END-->
+<!--QUOTE-->Difficulties increase the nearer we get to the goal. — Johann Wolfgang von Goethe<!--QUOTE_END-->
 
 </div>
