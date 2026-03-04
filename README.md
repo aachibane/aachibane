@@ -171,8 +171,4 @@ out of all Oracle NetSuite interns.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aachibane&color=00D9FF&style=flat-square&label=profile+views)
 
-## 💡 Daily Quote
-
-<!--QUOTE-->Loading quote...<!--QUOTE_END-->
-
 </div>
