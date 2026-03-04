@@ -146,6 +146,14 @@ Web & mobile multi-platform app. Auth, order processing & loyalty system. Contai
 
 <div align="center">
 
-<!--QUOTE-->Difficulties increase the nearer we get to the goal. — Johann Wolfgang von Goethe<!--QUOTE_END-->
+```
+"First, solve the problem. Then, write the code."
+```
+
+![Profile Views](https://komarev.com/ghpvc/?username=aachibane&color=00D9FF&style=flat-square&label=profile+views)
+
+## 💡 Daily Quote
+
+<!--QUOTE-->Genius is one percent inspiration and ninety-nine percent perspiration. — Thomas Edison<!--QUOTE_END-->
 
 </div>
