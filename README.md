@@ -154,6 +154,6 @@ Web & mobile multi-platform app. Auth, order processing & loyalty system. Contai
 
 ## 💡 Daily Quote
 
-<!--QUOTE-->You can observe a lot just by watching. — Yogi Berra<!--QUOTE_END-->
+<!--QUOTE-->Fate is in your hands and no one elses — Byron Pulsifer<!--QUOTE_END-->
 
 </div>
