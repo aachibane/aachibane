@@ -1,0 +1,32 @@
+name: Rotate Daily Quote
+
+on:
+  workflow_dispatch: # manual trigger
+  schedule:
+    - cron: "0 12 * * *" # daily at 12:00 UTC
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch random quote
+        id: quote
+        run: |
+          QUOTE=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author')
+          echo "QUOTE=$QUOTE" >> $GITHUB_ENV
+
+      - name: Replace quote in README
+        run: |
+          sed -i "s|<!--QUOTE-->.*<!--QUOTE_END-->|<!--QUOTE-->$QUOTE<!--QUOTE_END-->|" README.md
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update daily quote"
+          git push
