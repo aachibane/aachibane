@@ -173,6 +173,6 @@ out of all Oracle NetSuite interns.
 
 ## 💡 Daily Quote
 
-<!--QUOTE-->Loading quote...<!--QUOTE_END-->
+<!--QUOTE-->Difficulties increase the nearer we get to the goal. — Johann Wolfgang von Goethe<!--QUOTE_END-->
 
 </div>
