@@ -149,6 +149,6 @@ Web & mobile multi-platform app. Auth, order processing & loyalty system. Contai
 
 <div align="center">
 
-*<!--QUOTE-->You can observe a lot just by watching. — Yogi Berra<!--QUOTE_END-->*
+*<!--QUOTE-->A house divided against itself cannot stand. — Abraham Lincoln<!--QUOTE_END-->*
 
 </div>
