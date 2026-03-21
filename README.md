@@ -149,6 +149,6 @@ Web & mobile multi-platform app. Auth, order processing & loyalty system. Contai
 
 <div align="center">
 
-*<!--QUOTE-->Fate is in your hands and no one elses — Byron Pulsifer<!--QUOTE_END-->*
+*<!--QUOTE-->You can observe a lot just by watching. — Yogi Berra<!--QUOTE_END-->*
 
 </div>
