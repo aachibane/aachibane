@@ -149,6 +149,6 @@ Web & mobile multi-platform app. Auth, order processing & loyalty system. Contai
 
 <div align="center">
 
-*<!--QUOTE-->Difficulties increase the nearer we get to the goal. — Johann Wolfgang von Goethe<!--QUOTE_END-->*
+*<!--QUOTE-->Genius is one percent inspiration and ninety-nine percent perspiration. — Thomas Edison<!--QUOTE_END-->*
 
 </div>
